@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alta Alumnos</title>
+</head>
+
+<body>
+    <h2>Alta de Alumnos</h2>
+    <form action="../PHP/pagina18.2.php" method="post">
+        <label for="nombre">Nombre del alumno:</label>
+        <input type="text" name="nombre" required>
+        <br><br>
+
+        <label for="correo">Correo del alumno:</label>
+        <input type="email" name="correo" required>
+        <br><br>
+
+        <label for="curso">Seleccione el curso:</label>
+        <label for="curso_php">
+            <input type="radio" id="curso_php" name="curso" value="PHP"> PHP
+        </label>
+        
+        <label for="curso_asp">
+            <input type="radio" id="curso_asp" name="curso" value="ASP"> ASP
+        </label>
+        
+        <label for="curso_jsp">
+            <input type="radio" id="curso_jsp" name="curso" value="JSP"> JSP
+        </label>
+        
+        <br><br>
+
+        <input type="submit" value="Registrar Alumno">
+    </form>
+</body>
+
+</html>

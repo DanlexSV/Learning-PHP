@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form method="post" action="../PHP/pagina9.php">
+        <label for="name">Escriba su nombre:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="ingresos">Ingresos Mensuales:</label>
+        <select id="ingresos" name="ingresos">
+            <option value="1-1000">1 - 1000</option>
+            <option value="1001-3000">1001 - 3000</option>
+            <option value=">3000">&gt; 3000</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
